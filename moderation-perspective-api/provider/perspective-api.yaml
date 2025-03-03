@@ -1,0 +1,24 @@
+identity:
+  author: blue_pen5805
+  name: perspective-api
+  label:
+    en_US: Perspective API
+  description:
+    en_US: Perspective API
+  icon: icon_s_en.png
+tools:
+  - tools/moderation.yaml
+extra:
+  python:
+    source: provider/perspective-api.py
+credentials_for_provider:
+  api_key:
+    type: secret-input
+    label:
+      en_US: API Key
+    help:
+      en_US: API Key for Google Cloud
+    placeholder:
+      en_US: Please enter your Google Cloud API key
+    url: https://developers.perspectiveapi.com/s/docs-enable-the-api
+    required: true

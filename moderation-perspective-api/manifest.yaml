@@ -1,0 +1,29 @@
+version: 0.0.1
+type: plugin
+author: blue_pen5805
+name: moderation-perspective-api
+label:
+  en_US: Moderation / Perspective API
+description:
+  en_US: Perspective API moderation node plugin.
+icon: icon_s_en.png
+resource:
+  memory: 1048576
+  permission:
+    tool:
+      enabled: true
+plugins:
+  tools:
+    - provider/perspective-api.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+created_at: 2025-03-03T16:27:12.976228873Z
+privacy: PRIVACY.md
+verified: false
